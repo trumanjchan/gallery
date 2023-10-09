@@ -1,5 +1,5 @@
 <script setup>
-	import Photo from '/~components/Photo.vue'
+	import Row from '/~components/Row.vue'
 </script>
 
 <style>
@@ -7,6 +7,5 @@
 </style>
 
 <template>
-    <h1>Here is a child component!</h1>
-    <Photo />
+    <Row />
 </template>
