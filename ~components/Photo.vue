@@ -1,14 +1,18 @@
 <script>
-import { imageCount } from '../assets/js/utility'
+import { imageCount, makeRows } from '../assets/js/utility'
 
-	export default {
-		methods: {
-			imageCount,
-		},
+export default {
+	methods: {
+		imageCount,
+		makeRows,
 	}
+}
 </script>
 
 <template>
-	<div>{{ imageCount() }}</div>
-  	<img v-for="image in imageCount()" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image">
+  	<img v-for="image in imageCount()" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image">
+
+	<div v-for="row in makeRows(imageCount())" :id="'Row' + row" class="Row">
+		Hi
+	</div>
 </template>

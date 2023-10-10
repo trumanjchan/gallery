@@ -14,3 +14,4 @@ Showcasing all my artsy photos!
 
 #### Sources used
 * [Stackoverflow - Count num of total images](https://stackoverflow.com/questions/55867990/is-there-a-way-to-count-how-many-files-are-in-a-folder-and-then-import-it-to-a-v)
+* [Stackoverflow - Create array from 1 to N](https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n)

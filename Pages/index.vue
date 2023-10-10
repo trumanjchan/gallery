@@ -1,5 +1,5 @@
 <script setup>
-	import Row from '/~components/Row.vue'
+import Row from '/~components/Row.vue'
 </script>
 
 <style>

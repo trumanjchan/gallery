@@ -1,5 +1,6 @@
 <script setup>
-	import Photo from '/~components/Photo.vue'
+import Photo from '/~components/Photo.vue'
+import { imageCount, makeRows } from '../assets/js/utility'
 </script>
 
 <style>
@@ -7,6 +8,5 @@
 </style>
 
 <template>
-    <div>{{ imageCount }}</div>
     <Photo />
 </template>
