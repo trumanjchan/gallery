@@ -1,6 +1,6 @@
 # Gallery
 
-Showcasing all my artsy photos!
+Showcasing all my artsy photos! Inspired by Instagram and Facebook.
 
 ### Requirements
 
@@ -13,5 +13,5 @@ Showcasing all my artsy photos!
 2. `bun run dev -o`
 
 #### Sources used
-* [Stackoverflow - Count num of total images](https://stackoverflow.com/questions/55867990/is-there-a-way-to-count-how-many-files-are-in-a-folder-and-then-import-it-to-a-v)
+* [Stackoverflow - Count num of total images in a directory](https://stackoverflow.com/questions/55867990/is-there-a-way-to-count-how-many-files-are-in-a-folder-and-then-import-it-to-a-v)
 * [Stackoverflow - Create array from 1 to N](https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n)
