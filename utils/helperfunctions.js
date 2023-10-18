@@ -6,8 +6,6 @@ export const imageCount = function() {
 }
 
 export const makeRows = function(imgCount) {
-    console.log("imgCount(): " + imgCount)
     let numRows = Math.ceil(imgCount / 3)
-    console.log("numRows: " + numRows)
     return numRows
 }
