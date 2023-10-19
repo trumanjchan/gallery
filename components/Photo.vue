@@ -10,12 +10,10 @@ const { row } = props;
 
 <template>
 	<div v-for="image in imageCount()">
-		<div v-if="row*3 == image">{{ "image" + image }}</div>
-		<div v-if="row*3 == image+1">{{ "image" + image }}</div>
-		<div v-if="row*3 == image+2">{{ "image" + image }}</div>
-
-		<img v-if="row*3 == image" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image">
-		<img v-if="row*3 == image+1" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image">
-		<img v-if="row*3 == image+2" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image">
+		<div v-if="row*3 == image || row*3 == image+1 || row*3 == image+2" class="Cell">
+			<img v-if="row*3 == image" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image" loading="lazy" />
+			<img v-if="row*3 == image+1" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image" loading="lazy" />
+			<img v-if="row*3 == image+2" :id="image" :src="'/Images/IMG_' + image + '.webp'" :alt="'IMG_' + image" loading="lazy" />
+		</div>
 	</div>
 </template>
