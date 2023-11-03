@@ -3,5 +3,7 @@
 </style>
 
 <template>
-    <Row />
+	<div id="Gallery">
+		<Row />
+	</div>
 </template>
