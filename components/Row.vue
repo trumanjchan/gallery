@@ -10,6 +10,22 @@ export default {
 	created() {
 		this.getFileList()
 	},
+    mounted() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        let children = document.getElementById("Gallery").childNodes
+        for (let i = 0; i < children.length; i++) {
+            if (document.getElementById(children[i].id)) {
+                observer.observe(document.getElementById(children[i].id));
+            }
+        }
+    },
 	methods: {
 		getFileList() {
             try {
@@ -26,6 +42,10 @@ export default {
 	},
 }
 </script>
+
+<style>
+@import '~/assets/css/Component/Row.scss';
+</style>
 
 <template>
     <div v-for="row in makeRows(fileList.length)" :id="'Row' + (makeRows(fileList.length) - row + 1)" class="Row">

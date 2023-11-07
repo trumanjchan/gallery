@@ -19,3 +19,4 @@ Showcasing all my artsy photos! I created Gallery with the idea of displaying la
 * [Stackoverflow - White line on the bottom of the page](https://stackoverflow.com/questions/47896237/white-line-at-the-bottom-of-the-page-padding-related)
 * [Vuejs - Composition API vs. Options API setup hook props](https://vuejs.org/guide/components/props.html)
 * [Stackoverflow - Find total images in assets folder in Nuxt](https://stackoverflow.com/questions/73997752/how-can-i-easily-list-all-files-in-assets-and-public-in-nuxtjs-3)
+* [Dev.to - Intersection Observer API in Nuxt3](https://dev.to/michaelsynan/reveal-on-scroll-with-nuxt-and-intersection-observer-api-53di)
