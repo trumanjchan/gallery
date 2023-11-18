@@ -20,3 +20,5 @@ Showcasing all my artsy photos! I created Gallery with the idea of displaying la
 * [Vuejs - Composition API vs. Options API setup hook props](https://vuejs.org/guide/components/props.html)
 * [Stackoverflow - Find total images in assets folder in Nuxt](https://stackoverflow.com/questions/73997752/how-can-i-easily-list-all-files-in-assets-and-public-in-nuxtjs-3)
 * [Dev.to - Intersection Observer API in Nuxt3](https://dev.to/michaelsynan/reveal-on-scroll-with-nuxt-and-intersection-observer-api-53di)
+* [MasteringNuxt - Understanding useState](https://masteringnuxt.com/blog/understanding-usestate-in-nuxt-3)
+* [Nuxt - Global CSS variables](https://nuxt.com/docs/getting-started/styling)
