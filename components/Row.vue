@@ -1,12 +1,17 @@
 <script>
+import { onMounted } from 'vue'
 import fs from 'fs'
 
 export default {
-	data() {
-		return {
-			fileList: [],
-		}
-	},
+    setup() {
+        const fileList = useState('files', () => [])
+
+        onMounted(() => console.log(fileList))
+
+        return {
+            fileList,
+        }
+    },
 	created() {
 		this.getFileList()
 	},
