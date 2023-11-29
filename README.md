@@ -4,7 +4,7 @@ Showcasing all my artsy photos! I created Gallery with the idea of displaying la
 
 ### Requirements
 
-1. node v18.0.0 or newer
+1. node v18.0.0
 2. bun package manager
 
 ### Run locally

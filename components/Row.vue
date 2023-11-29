@@ -36,9 +36,13 @@ export default {
             try {
                 let tempFiles = [];
                 tempFiles = fs.readdirSync('./public/Images')
-                if (tempFiles[0] == '.DS_Store') {
-                    tempFiles.splice(0,1);
+                
+                for (let i = 0; i < tempFiles.length; i++) {
+                    if (tempFiles[i] == '.DS_Store') {
+                        tempFiles.splice(i,1);
+                    }
                 }
+
                 this.fileList = tempFiles
             } catch (error) {
                 console.log('Error: ', error)
