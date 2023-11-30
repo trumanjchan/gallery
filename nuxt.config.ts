@@ -14,5 +14,25 @@ export default defineNuxtConfig({
 				}
 		  	}
 		}
+	},
+	modules: [
+		"nuxt-lazy-load"
+	],
+	lazyLoad: {
+		// Variables
+		images: true,
+		videos: true,
+		audios: true,
+		iframes: true,
+		native: false,
+		directiveOnly: true,
+		
+		// Default image must be in the public folder
+		defaultImage: 'placeholder.webp',
+	  
+		// To remove class set value to false
+		loadingClass: 'isLoading',
+		loadedClass: 'isLoaded',
+		appendClass: 'lazyLoad',
 	}
 })
