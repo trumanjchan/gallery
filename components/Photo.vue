@@ -3,7 +3,7 @@ export default {
 	props: {
     	row: Number,
 		imageCount: Number,
-  	},
+  	}
 }
 </script>
 

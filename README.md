@@ -22,3 +22,5 @@ Showcasing all my artsy photos! I created Gallery with the idea of displaying la
 * [Dev.to - Intersection Observer API in Nuxt3](https://dev.to/michaelsynan/reveal-on-scroll-with-nuxt-and-intersection-observer-api-53di)
 * [MasteringNuxt - Understanding useState](https://masteringnuxt.com/blog/understanding-usestate-in-nuxt-3)
 * [Nuxt - Global CSS variables](https://nuxt.com/docs/getting-started/styling)
+* [Dev.to - Modal component in Nuxt](https://dev.to/davidemaye/how-to-create-a-modal-component-in-nuxt-38g1)
+* [Stackoverflow - Fix event listeners not working in iOS](https://stackoverflow.com/questions/72794901/window-addeventlistenerclick-function-not-working-on-iphone)
