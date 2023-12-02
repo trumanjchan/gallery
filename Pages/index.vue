@@ -18,10 +18,10 @@ export default {
 		}
 	},
 	beforeMount() {
-    	document.addEventListener('click', this.findImgId)
+    	document.getElementById("Gallery").addEventListener('click', this.findImgId)
   	},
   	beforeUnmount() {
-		document.removeEventListener('click', this.findImgId)
+		document.getElementById("Gallery").removeEventListener('click', this.findImgId)
   	}
 }
 </script>
