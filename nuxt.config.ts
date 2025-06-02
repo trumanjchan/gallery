@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	ssr: true,
+	nitro: {
+    	preset: 'node-server'
+  	},
 	devtools: { enabled: true },
   	app: {
     	head: {
@@ -28,7 +32,7 @@ export default defineNuxtConfig({
 		directiveOnly: true,
 		
 		// Default image must be in the public folder
-		defaultImage: 'placeholder.webp',
+		//defaultImage: 'placeholder.webp',
 	  
 		// To remove class set value to false
 		loadingClass: 'isLoading',

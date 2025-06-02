@@ -21,9 +21,3 @@ logs
 # Local env files
 .env
 .env.*
-!.env.example
-
-# Fly.io deployment-generated
-.dockerignore
-Dockerfile
-fly.toml
